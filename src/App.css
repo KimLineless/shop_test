@@ -11,10 +11,11 @@
 
 .logo {
   display: block;
-  opacity: 1;
-  color: #fff;
+  width: 150px;
   text-decoration: none;
+  margin-right: 100px;
 }
+
 
 .productList {
   display: flex;
@@ -29,12 +30,19 @@
 .list img {
   width: 100%;
 }
-.list_con {
+
+.list p {
+  margin-bottom: 5px;
   text-align: center;
 }
 
-/* .list {
-  width: calc(100% / 3 - 20px);
-  margin: 10px;
-} */
-
+.list p:nth-of-type(3) {
+  font-size: 20px;
+  text-align: center;
+}
+.list p:nth-of-type(4) {
+  display: none;
+}
+.list_con {
+  text-align: center;
+}
